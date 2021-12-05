@@ -1,0 +1,50 @@
+//Important notes:
+    Editar o menu de baixo tambem;
+    Ver cores de menu;
+       
+
+O programa a desenvolver deverá dar possibilidade de:
+
+    1.  Introduzir informação sobre uma bebida.
+
+    (id|nome|preço) + (stock|tipo)
+
+    2.  Listar toda a informação sobre todas as bebidas.
+
+    3.  Listar a informação sobre uma bebida (o código deve ser introduzido pelo utilizador).
+            4. Alterar o preço de uma bebida, dada a referência.(por id)
+            5. Listar a informação sobre a(s) bebida (s) com maior número de quantidade de garrafas
+            em stock.
+            6. Calcular a totalidade do valor que a garrafeira mantém em stock.
+            7. Calcular a média dos preços das bebidas.
+            8. Listar todas as bebidas de um determinado tipo, introduzido pelo utilizador.
+            9. Para um determinado tipo de bebida, saber qual o preço mais baixo.
+            10. Listar informação sobre as bebidas com preço acima da média.
+            11. Contabilizar, para cada tipo de bebida, a media da quantidade de garrafas em stock.
+            12. Vender um determinado número de garrafas, com uma determinada referência.
+            13. Supondo que bebida alcoólicas pagam um IVA de 13%. Calcular o valor a pagar em IVA
+                pela totalidade das bebidas em stock.
+
+Menu: (by Von)
+    Introduzir dados:
+        1)
+    Listas:
+        2)
+        3)
+        5)
+        8)
+        10)
+    Calculos:
+        6)
+        7)
+    Alteraçao de dados:
+        4)
+    Outros:
+        9)
+        11)
+        12)
+        13)
+
+(refrigerante|alcool|simples)
+gasificada
+(refrigerante|alcool|simples|Outros)
