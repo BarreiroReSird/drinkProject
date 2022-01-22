@@ -189,13 +189,6 @@ void drinksByType(vDrink *vDrinks, int drinksNumber) {
             printf(" | Preco: %.2f", vDrinks[i].dPrice);
             printf(" | Stock: %d", vDrinks[i].dStock);
             printf(" | Tipo: %s", vDrinks[i].dType);
-        } else {
-            printf("\n Todas as bebidas de todos os tipos, pois nao escolheu nenhuma das opcoes possiveis:");
-            printf("\n Id: %d", vDrinks[i].dId);
-            printf(" | Nome: %s", vDrinks[i].dName);
-            printf(" | Preco: %.2f", vDrinks[i].dPrice);
-            printf(" | Stock: %d", vDrinks[i].dStock);
-            printf(" | Tipo: %s", vDrinks[i].dType);
         }
     }
 }
@@ -214,8 +207,6 @@ void cheapestDrinkOfCertainType(vDrink *vDrinks, int drinksNumber) {
                 cheapestDrink = vDrinks[i].dPrice;
                 iVar = i;
             }
-        } else {
-            printf("\n Nenhum dos tipos possiveis foi escolhido \t");
         }
     }
     for (int i = 0; i < drinksNumber; i++) {
@@ -332,8 +323,8 @@ void calculateIvaAlcool(vDrink *vDrinks, int drinksNumber) {
     }
     justPrice = priceAndIva / 1.13;
     ivaAlcool = priceAndIva - justPrice;
-    printf("\n priceAndIva: %.2f \t", priceAndIva);
-    printf("\n justPrice: %.2f \t", justPrice);
+    printf("\n Preco com iva: %.2f \t", priceAndIva);
+    printf("\n Preco sem iva: %.2f \t", justPrice);
     printf("\n O preco do iva do alcool em stock: %.2f \t", ivaAlcool);
 }
 
